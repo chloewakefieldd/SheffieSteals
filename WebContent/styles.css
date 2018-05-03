@@ -1,0 +1,121 @@
+body {
+	text-align: center;
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	background-color: #CCCCCC;
+}
+
+th {
+	display: none;
+}
+
+td {
+	padding: 0px 10px;
+	width: 33.33%;
+	background: none;
+}
+
+tr {
+	height: 50px;
+	border-bottom: 1px solid #8c8c8c78;
+}
+
+tr:last-of-type {
+	border-bottom: 1px solid black;
+}
+
+tbody tr:nth-of-type(odd) td {
+	background: #eeeeee;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	border-radius: 6px;
+}
+
+td:nth-child(3) button {
+	background: lightgreen;
+	cursor: pointer;
+	border: 1px solid #8c8c8c9c;
+}
+
+td:nth-child(4) button {
+	background: #ee9090;
+	cursor: pointer;
+	border: 1px solid #8c8c8c9c;
+}
+
+
+#searchTextbox {
+	width: 400px;
+	height: 26px;
+	padding: 0 10px;
+	border-radius: 6px;
+	margin: 12px 10px;
+	border: 1px solid #8c8c8c7a;
+    border-radius: 6px;
+    line-height: 16px;
+    font-size: 16px;
+	#-webkit-appearance: none;
+	float: left;
+}
+
+p {
+	margin: 12px;
+	line-height: 16px;
+	padding: 6px 0;
+	float: left;
+}
+
+#searchButton {
+	border-radius: 6px;
+	cursor: pointer;
+	border: 1px solid #8c8c8c;
+	height: 29px;
+	width: 60px;
+	background: #72b3ff;
+	margin: 12px 0px;
+	float: left;
+}
+
+#addPostForm {
+	background-color: white;
+	height:54px;
+	border-bottom: 1px solid #0000008f;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	margin: 0 auto;
+}
+
+#addFormContainer {
+	#position: absolute;
+	width: 607px;
+	margin: 0 auto;
+}
+
+#postsTableContainer {
+	/* border-left: 1px solid black; */
+	/* border-right: 1px solid black; */
+	height: calc(100vh - 80px);
+	width: 74%;
+	margin: 80px auto 0 auto;
+	/* background-color: white; */
+}
+
+#postsTable {
+	margin: 0 auto;
+	width: 100%;
+	border-collapse: collapse;
+	background: white;
+	border: 1px solid black;
+}
+
+td:first-of-type {
+	display: none;
+}
+
+tr:first-of-type {
+	display: none;
+}

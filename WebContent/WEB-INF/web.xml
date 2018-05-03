@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" metadata-complete="true" version="4.0">
+  <description>
+      SheffieSteals app
+    </description>
+  <display-name>SheffieSteals</display-name>
+  <servlet>
+    <servlet-name>SheffieSteals</servlet-name>
+    <servlet-class>SheffieSteals</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SheffieSteals</servlet-name>
+    <url-pattern>/post_submitted</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SheffieStealsIndex</servlet-name>
+    <servlet-class>SheffieStealsIndex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SheffieStealsIndex</servlet-name>
+    <url-pattern></url-pattern>
+  </servlet-mapping>
+</web-app>
